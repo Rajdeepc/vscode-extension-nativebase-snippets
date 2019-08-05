@@ -1,0 +1,10 @@
+{
+    "React Native Starter template" :{
+        "prefix": "!bs4",
+        "body":[
+            "<TouchableOpacity onPress={()} style={{flex:1}>",
+            "</TouchableOpacity>"
+        ],
+        "description":"Created React Native Starter Templates"
+    }
+}

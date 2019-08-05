@@ -1,0 +1,34 @@
+{
+    "name": "reactnativesnippets",
+    "displayName": "ReactNativeSnippets",
+    "description": "React Native Snippets",
+    "version": "1.0.0",
+    "publisher":"Rajdeep Chandra",
+    "repository": {
+        "type":"git",
+        "url":"https://github.com/Eventyret/vscode-bdcd"
+    },
+    "icon":"icon.png",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreactnative",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
