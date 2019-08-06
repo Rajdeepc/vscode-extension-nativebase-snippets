@@ -1,7 +1,7 @@
 {
     "name": "reactnativesnippets",
-    "displayName": "ReactNativeSnippets",
-    "description": "React Native Snippets",
+    "displayName": "ReactNativeNativeBaseSnippets",
+    "description": "React Native NativeBase Snippets",
     "version": "1.0.0",
     "publisher":"Rajdeep Chandra",
     "repository": {
@@ -19,15 +19,131 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/accordiansnippets.json"
             },
             {
                 "language": "javascriptreact",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/accordiansnippets.json"
             },
             {
-                "language": "javascriptreactnative",
-                "path": "./snippets/snippets.json"
+                "language": "javascript",
+                "path": "./snippets/badgesnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/badgesnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/buttonsnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/buttonsnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/cardsnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/cardsnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/checkboxsnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/checkboxsnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/datepickersnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/datepickersnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/formsnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/formsnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/headersnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/headersnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/listsnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/listsnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/pickersnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/pickersnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/radiosnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/radiosnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/searchbarsnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/searchbarsnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/spinnersnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/spinnersnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/tabsnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/tabsnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/toastsnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/toastsnippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/drawersnippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/drawersnippets.json"
             }
         ]
     }

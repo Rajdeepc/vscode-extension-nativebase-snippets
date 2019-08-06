@@ -1,6 +1,6 @@
-# reactnativesnippets README
+# React Native NativeBase Snippets README
 
-This is the README for your extension "reactnativesnippets". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "React Native NativeBase Snippets". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
