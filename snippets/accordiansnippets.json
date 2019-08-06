@@ -1,7 +1,7 @@
 {
-    "Native Base Accordian template" :{
+    "Native Base Accordian template": {
         "prefix": "!rnbaccordian",
-        "body":[
+        "body": [
             "import React, { Component } from \"react\";",
             "import { Container, Header, Content, Accordion } from \"native-base\";",
             "const dataArray = [",
@@ -22,11 +22,11 @@
             "}",
             "}"
         ],
-        "description":"Native Base Accordian template"
+        "description": "Native Base Accordian template"
     },
-    "Native Base Accordian template with Icon" :{
+    "Native Base Accordian template with Icon": {
         "prefix": "!rnbaccordianwithicon",
-        "body":[
+        "body": [
             "import React, { Component } from \"react\";",
             "import { Container, Header, Content, Accordion } from \"native-base\";",
             "const dataArray = [",
@@ -47,11 +47,11 @@
             "}",
             "}"
         ],
-        "description":"Native Base Accordian template with Icon"
+        "description": "Native Base Accordian template with Icon"
     },
-    "Native Base Accordian template with Icon Style" :{
+    "Native Base Accordian template with Icon Style": {
         "prefix": "!rnbaccordianwithiconstyle",
-        "body":[
+        "body": [
             "import React, { Component } from \"react\";",
             "import { Container, Header, Content, Accordion } from \"native-base\";",
             "const dataArray = [",
@@ -72,8 +72,67 @@
             "}",
             "}"
         ],
-        "description":"Native Base Accordian template with Icon"
+        "description": "Native Base Accordian template with Icon Style"
     },
-
-
+    "Native Base Accordian template with Custom Header Style": {
+        "prefix": "!rnbaccordianwithiconstyle",
+        "body": [
+            "import React, { Component } from \"react\";",
+            "import { Container, Header, Content, Accordion } from \"native-base\";",
+            "const dataArray = [",
+            "{ title: \"First Element\", content: \"Lorem ipsum dolor sit amet\" },",
+            "{ title: \"Second Element\", content: \"Lorem ipsum dolor sit amet\" },",
+            "{ title: \"Third Element\", content: \"Lorem ipsum dolor sit amet\" }",
+            "];",
+            "export default class AccordionCustomHeaderContent extends Component {",
+            "  _renderHeader(item, expanded) {",
+            "    return (",
+            "   <View style={{",
+            "   flexDirection: "row",",
+            "   padding: 10,",
+            "   justifyContent: "space-between",",
+            "   alignItems: "center" ,",
+            "  backgroundColor: "#A9DAD6" }}>",
+            " <Text style={{ fontWeight: "600" }}>",
+            "    {" "}{item.title}",
+            "  </Text>",
+            "   {expanded",
+            "   ? <Icon style={{ fontSize: 18 }} name="remove-circle" />",
+            "   : <Icon style={{ fontSize: 18 }} name="add-circle" />}",
+            "  </View>",
+            " );",
+            " }",
+            " _renderContent(item) {",
+            "        return (",
+            "  <Text",
+            "  style={{",
+            "    backgroundColor: "#e3f1f1",",
+            "   padding: 10,",
+            "   fontStyle: "italic",",
+            "   }}",
+            "  >",
+            "   {item.content}",
+            "   </Text>",
+            "  );",
+            "  }",
+            " render() {",
+            "  return (",
+            " <Container>",
+            "   <Header />",
+            "  <Content padder style={{ backgroundColor: "white" }}>",
+            "   <Accordion",
+            "   dataArray={dataArray}",
+            "  animation={true}",
+            "  expanded={true}",
+            "  renderHeader={this._renderHeader}",
+            "  renderContent={this._renderContent}",
+            " />",
+            " </Content>",
+            " </Container>",
+            ");",
+            " }",
+            " }",
+        ],
+        "description": "Native Base Accordian template with Custom Header Style"
+    },
 }
