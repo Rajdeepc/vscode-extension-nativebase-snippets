@@ -1,27 +1,29 @@
 {
-    "React Native Starter template" :{
-        "prefix": "!rnbaccordian",
+    "React NativeBase List template" :{
+        "prefix": "!rnblist",
         "body":[
             "import React, { Component } from \"react\";",
             "import { Container, Header, Content, Accordion } from \"native-base\";",
-            "const dataArray = [",
-            "{ title: \"First Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Second Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Third Element\", content: \"Lorem ipsum dolor sit amet\" }",
-            "];",
-            "export default class AccordionExample extends Component {",
-            "render(){",
-            "return(",
-            "   <Container>",
-            "        <Header/>",
-            "        <Content padder>",
-            "        <Accordion dataArray={dataArray} expanded={0}/>",
-            "        </Content>",
-            "   </Container>",
-            "    );",
-            "}",
-            "}"
+            "export default class ListDividerExample extends Component {",
+                "render() {",
+                  "return (",
+                    "<Container>",
+                      "<Header />",
+                      "<Content>",
+                        "<List>",
+                          "<ListItem itemDivider>",
+                            "<Text>A</Text>",
+                          "</ListItem>",       
+                          "<ListItem itemDivider>",
+                            "<Text>B</Text>",
+                         "</ListItem>",
+                        "</List>",
+                      "</Content>",
+                    "</Container>",
+                  ");",
+                "}",
+              "}"
         ],
-        "description":"Created React Native NativeStarter Templates"
+        "description":"Created React NativeBase List Templates"
     }
 }

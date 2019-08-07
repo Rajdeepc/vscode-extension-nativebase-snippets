@@ -1,27 +1,37 @@
 {
-    "React Native Starter template" :{
-        "prefix": "!rnbaccordian",
-        "body":[
+    "React NativeBase Radio template": {
+        "prefix": "!rnbradio",
+        "body": [
             "import React, { Component } from \"react\";",
-            "import { Container, Header, Content, Accordion } from \"native-base\";",
-            "const dataArray = [",
-            "{ title: \"First Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Second Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Third Element\", content: \"Lorem ipsum dolor sit amet\" }",
-            "];",
-            "export default class AccordionExample extends Component {",
-            "render(){",
-            "return(",
-            "   <Container>",
-            "        <Header/>",
-            "        <Content padder>",
-            "        <Accordion dataArray={dataArray} expanded={0}/>",
-            "        </Content>",
-            "   </Container>",
-            "    );",
+            "import { Container, Header, Content, ListItem, Text, Radio, Right, Left} from \"native-base\";",
+            "export default class RadioButtonExample extends Component {",
+            " render() {",
+            " return (",
+            "<Container>",
+            "  <Header />",
+            " <Content>",
+            "   <ListItem>",
+            "     <Left>",
+            "       <Text>Daily Stand Up</Text>",
+            "     </Left>",
+            "    <Right>",
+            "       <Radio selected={false} />",
+            "     </Right>",
+            "   </ListItem>",
+            "   <ListItem>",
+            "     <Left>",
+            "       <Text>Discussion with Client</Text>",
+            "     </Left>",
+            "     <Right>",
+            "       <Radio selected={true} />",
+            "     </Right>",
+            "   </ListItem>",
+            " </Content>",
+            "</Container>",
+            ");",
             "}",
             "}"
         ],
-        "description":"Created React Native NativeStarter Templates"
+        "description": "Created React NativeBase Radio Templates"
     }
 }

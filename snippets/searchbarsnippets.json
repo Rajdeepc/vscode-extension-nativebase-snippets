@@ -1,27 +1,28 @@
 {
-    "React Native Starter template" :{
-        "prefix": "!rnbaccordian",
+    "React NativeBase SearchBar template" :{
+        "prefix": "!rnbasearchbar",
         "body":[
             "import React, { Component } from \"react\";",
-            "import { Container, Header, Content, Accordion } from \"native-base\";",
-            "const dataArray = [",
-            "{ title: \"First Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Second Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Third Element\", content: \"Lorem ipsum dolor sit amet\" }",
-            "];",
-            "export default class AccordionExample extends Component {",
-            "render(){",
-            "return(",
-            "   <Container>",
-            "        <Header/>",
-            "        <Content padder>",
-            "        <Accordion dataArray={dataArray} expanded={0}/>",
-            "        </Content>",
-            "   </Container>",
-            "    );",
-            "}",
-            "}"
+            "import { Container, Header, Item, Input, Icon, Button, Text } from \"native-base\";",
+            "export default class SearchBarExample extends Component {",
+                " render() {",
+                    "  return (",
+                    "  <Container>",
+                    "   <Header searchBar rounded>",
+                    "    <Item>",
+                    "     <Icon name=\"ios-search\" />",
+                    "     <Input placeholder=\"Search\" />",
+                    "    <Icon name=\"ios-people\" />",
+                    "   </Item>",
+                    "   <Button transparent>",
+                    "     <Text>Search</Text>",
+                    "   </Button>",
+                    " </Header>",
+                    " </Container>",
+                    " );",
+                    " }",
+                    " }"
         ],
-        "description":"Created React Native NativeStarter Templates"
+        "description":"Created React NativeBase SearchBar Templates"
     }
 }

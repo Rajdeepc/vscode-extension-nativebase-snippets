@@ -1,27 +1,29 @@
 {
-    "React Native Starter template" :{
-        "prefix": "!rnbaccordian",
+    "React Native Base Form template" :{
+        "prefix": "!rnbform",
         "body":[
             "import React, { Component } from \"react\";",
-            "import { Container, Header, Content, Accordion } from \"native-base\";",
-            "const dataArray = [",
-            "{ title: \"First Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Second Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Third Element\", content: \"Lorem ipsum dolor sit amet\" }",
-            "];",
-            "export default class AccordionExample extends Component {",
-            "render(){",
-            "return(",
-            "   <Container>",
-            "        <Header/>",
-            "        <Content padder>",
-            "        <Accordion dataArray={dataArray} expanded={0}/>",
-            "        </Content>",
-            "   </Container>",
-            "    );",
-            "}",
-            "}"
+            "import { Container, Header, Content, Form, Item, Input } from \"native-base\";",
+            "export default class FormExample extends Component {",
+                "render() {",
+                  "return (",
+                    "<Container>",
+                      "<Header />",
+                      "<Content>",
+                        "<Form>",
+                          "<Item>",
+                            "<Input placeholder=\"Username\" />",
+                          "</Item>",
+                          "<Item last>",
+                            "<Input placeholder=\"Password\" />",
+                          "</Item>",
+                        "</Form>",
+                      "</Content>",
+                    "</Container>",
+                  ");",
+                "}",
+              "}"
         ],
-        "description":"Created React Native NativeStarter Templates"
+        "description":"React Native Base Form template"
     }
 }

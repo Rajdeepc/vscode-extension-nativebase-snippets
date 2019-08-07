@@ -1,27 +1,26 @@
 {
-    "React Native Starter template" :{
-        "prefix": "!rnbaccordian",
-        "body":[
+    "React Native CheckBox template": {
+        "prefix": "!rnbcheckbox",
+        "body": [
             "import React, { Component } from \"react\";",
-            "import { Container, Header, Content, Accordion } from \"native-base\";",
-            "const dataArray = [",
-            "{ title: \"First Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Second Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Third Element\", content: \"Lorem ipsum dolor sit amet\" }",
-            "];",
-            "export default class AccordionExample extends Component {",
-            "render(){",
-            "return(",
-            "   <Container>",
-            "        <Header/>",
-            "        <Content padder>",
-            "        <Accordion dataArray={dataArray} expanded={0}/>",
-            "        </Content>",
-            "   </Container>",
-            "    );",
-            "}",
+            "import { Container, Header, Content, ListItem, CheckBox, Text, Body } from \"native-base\";",
+            "export default class CheckBoxExample extends Component {",
+            "render() {",
+            "return (",
+            "<Container>",
+            "<Header />",
+            "<Content>",
+            "<ListItem>",
+            "<CheckBox checked={true} />",
+            "<Body>",
+            "<Text>Daily Stand Up</Text>",
+            "</Body>",
+            "</ListItem>",
+            "</Content>",
+            "</Container>",
+            ");",
             "}"
         ],
-        "description":"Created React Native NativeStarter Templates"
+        "description": "Created React Native CheckBox Templates"
     }
 }

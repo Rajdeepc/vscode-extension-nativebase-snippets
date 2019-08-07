@@ -1,6 +1,6 @@
 {
-    "React Native Starter template" :{
-        "prefix": "!rnbaccordian",
+    "React NativeBase Spinner template" :{
+        "prefix": "!rnbspinner",
         "body":[
             "import React, { Component } from \"react\";",
             "import { Container, Header, Content, Accordion } from \"native-base\";",
@@ -22,6 +22,6 @@
             "}",
             "}"
         ],
-        "description":"Created React Native NativeStarter Templates"
+        "description":"Created React NativeBase Spinner Templates"
     }
 }

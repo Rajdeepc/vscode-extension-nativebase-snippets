@@ -1,27 +1,21 @@
 {
-    "React Native Starter template" :{
-        "prefix": "!rnbaccordian",
+    "React Native Button Starter template" :{
+        "prefix": "!rnbbutton",
         "body":[
-            "import React, { Component } from \"react\";",
-            "import { Container, Header, Content, Accordion } from \"native-base\";",
-            "const dataArray = [",
-            "{ title: \"First Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Second Element\", content: \"Lorem ipsum dolor sit amet\" },",
-            "{ title: \"Third Element\", content: \"Lorem ipsum dolor sit amet\" }",
-            "];",
-            "export default class AccordionExample extends Component {",
-            "render(){",
-            "return(",
-            "   <Container>",
-            "        <Header/>",
-            "        <Content padder>",
-            "        <Accordion dataArray={dataArray} expanded={0}/>",
-            "        </Content>",
-            "   </Container>",
-            "    );",
-            "}",
+            "import { Container, Header, Content, Button, Text, Icon } from \"native-base\";",
+            "export default class ButtonThemeExample extends Component {",
+              "render() {",
+                "return (",
+                  "<Container>",
+                    "<Header />",
+                    "<Content>",
+                      "<Button light><Text> Light </Text></Button>",
+                    "</Content>",
+                 " </Container>",
+                ");",
+              "}",
             "}"
         ],
-        "description":"Created React Native NativeStarter Templates"
+        "description":"React Native NativeButton Starter Templates"
     }
 }
