@@ -1,20 +1,79 @@
-# React Native NativeBase Snippets README
+# React Native Base Snippets README
 
-This is the README for your extension "React Native NativeBase Snippets". After writing up a brief description, we recommend including the following sections.
+Automatically adds React Native Base snippets to your React Native Apps. 
++ Required Expo 32 and Above and React Native 0.59
+
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Supported languages (file extensions)
 
-For example if there is an image subfolder under your extension project workspace:
+JavaScript (.js)
+JavaScript React (.jsx)
+JavaScript React Native(.jsx)
+TypeScript (.ts)
+TypeScript React (.tsx)
 
-\!\[feature X\]\(images/feature-x.png\)
+## Snippets Info
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Basic Methods
 
-## Requirements
+`!rnbaccordian` ===> <br>
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+![Accordian](images/accordian.png)
+
+`!rnbbadge` ===> <br>
+
+![Badge](images/badge.png)
+
+
+`!rnbbutton` ===> <br>
+
+![Button](images/button.png)
+
+
+`!rnbcard` ===> <br>
+
+![Card](images/card.png)
+
+`!rnbcheckbox` ===> <br>
+
+![Checkbox](images/checkbox.png)
+
+`!rnbadatepicker` ===> <br>
+
+![Accordian](images/search.png)
+
+
+`!rnbform` ===> <br>
+
+![Form](images/form.png)
+
+
+`!rnbheader` ===> <br>
+
+![header](images/header.png)
+
+
+`!rnblist` ===> <br>
+
+![Accordian](images/list.png)
+
+
+`!rnbpicker` ===> <br>
+
+![Picker](images/picker.png)
+
+
+`!rnbradio` ===> <br>
+
+![Radio](images/radio.png)
+
+`!rnbasearchbar` ===> <br>
+
+![Search](images/searchbar.png)
+
+
 
 ## Extension Settings
 
@@ -33,33 +92,11 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
+Initial release of React Native Base Snippets
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
 
 -----------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
 **Enjoy!**
